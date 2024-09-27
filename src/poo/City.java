@@ -5,19 +5,28 @@ public class City {
 	private String name;
 	private String country;
 	private int population;
+	
+	private static int instanceCount = 0;
 		
 	// Constructors
 	public City(String name, String country, int population) {
 		this.name = name;
 		this.country = country;
 		setPopulation(population);
+		instanceCount++;
 	}
 	
 	public City(String name, int population) {
 		this.name = name;
 		this.country = "unknow";
 		setPopulation(population);
+		instanceCount++;
 	}
+	
+	// Obtenir le nombre d'instances
+	public static int getInstanceCount() {
+	        return instanceCount;
+	    }
 	
 	// Accesseurs
 	public String getName() {
