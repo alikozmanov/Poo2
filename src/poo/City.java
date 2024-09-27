@@ -48,6 +48,11 @@ public class City {
 	public void display() {
 		System.out.println("Ville de " + name + " en " + country + " ayant " + population + " habitants ");
 	}
+
+	@Override
+	public String toString() {
+		return "City [name=" + name + ", country=" + country + ", population=" + population + "]";
+	}
 	
 }
  

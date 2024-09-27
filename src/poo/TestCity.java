@@ -13,6 +13,8 @@ public class TestCity {
 		tarbes.display();
 		rabat.display();
 	
+		System.out.println(toulouse);
+		
 		//System.out.println(tarbes.getName() + " " + tarbes.getCountry() + " " + tarbes.getPopulation());
 		//System.out.println(toulouse.getName() + " " + toulouse.getCountry() + " " + toulouse.getPopulation());
 		//System.out.println(paris.getName() + " " + paris.getCountry() + " " + paris.getPopulation());
