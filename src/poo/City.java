@@ -40,7 +40,7 @@ public class City {
 	}
  
 	public void setPopulation(int population) {
-		if(population>this.population)
+		if(population > this.population)
 		this.population = population;
 	}
 	

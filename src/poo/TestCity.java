@@ -6,7 +6,7 @@ public class TestCity {
 		City tarbes = new City("Tarbes","France",40000);
 		City toulouse = new City("Toulouse","France",450000);
 		City paris = new City("Paris","France",2000000);
-		City rabat = new City("Rabat",500000);
+		City rabat = new City("Rabat",577000);
 	
 		System.out.println(tarbes.getName() + " " + tarbes.getCountry() + " " + tarbes.getPopulation());
 		System.out.println(toulouse.getName() + " " + toulouse.getCountry() + " " + toulouse.getPopulation());
@@ -24,6 +24,6 @@ public class TestCity {
 		System.out.println(rabat.getName() + " " + rabat.getCountry() + " "+ rabat.getPopulation());
 	}
 }
- 
+
 
  
