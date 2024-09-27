@@ -44,5 +44,10 @@ public class City {
 		this.population = population;
 	}
 	
+	// Afficher la méthode diplay
+	public void display() {
+		System.out.println("Ville de " + name + " en " + country + " ayant " + population + " habitants ");
+	}
+	
 }
  
