@@ -8,6 +8,7 @@ public class TestCity {
 		City paris = new City("Paris","France",2000000);
 		City rabat = new City("Rabat",577000);
 		
+		
 		paris.display();
 		toulouse.display();
 		tarbes.display();
